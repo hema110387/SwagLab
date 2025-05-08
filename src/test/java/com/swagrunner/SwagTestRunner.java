@@ -9,15 +9,15 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features= "C:\\Users\\ganes\\eclipse-workspace\\TestAutomation\\src\\test\\resources\\com\\featurefile\\SwagLogin.feature",
+		features= "C:\\Users\\ganes\\eclipse-workspace\\TestAutomation\\src\\test\\resources\\com\\featurefile\\SwagProduct.feature",
 		glue="com.stepdef",
 		monochrome = false,
 		dryRun = true,
 		publish=false,
 		plugin= {
-				"html:LumaReports/LumarHTMLReports.html",
-				"json:LumaReports/LumaJSONReports.json",
-			"pretty",
+				"html:SwagReports/SwagHTMLReports.html",
+				"json:SwagReports/SwagJSONReports.json",
+			    "pretty",
 				//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				//"timeline:targetTimeline/cucumber"
 				 //"com.aventstack.chaintest.plugins.ChainTestCucumberListener:" 		
